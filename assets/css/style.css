@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 body {
     background-color: rgb(168, 164, 164);
@@ -10,12 +10,14 @@ body {
 header {
     padding: 20px;
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1 {
-    font-style: italic;
+    font-weight: bold;
     font-size: 36px;
     margin: 0;
-    display: inline;
     color: blue;
 }
 header a {
@@ -23,7 +25,6 @@ header a {
     color: blue;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul li {
@@ -36,7 +37,7 @@ header nav ul li a {
 }
 .hero {
     background-image: url("../images/Cloudy-Sky-Desktop-Background.jpeg");
-    height: 150px;
+    height: 200px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -49,4 +50,11 @@ header nav ul li a {
 }
 .info {
     text-align: center;
+}
+.info p {
+    line-height: 1.5;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
 }
