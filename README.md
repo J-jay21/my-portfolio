@@ -1,7 +1,7 @@
 # my-portfolio
 
 ## Purpose
-A website that shows my information and woeks/projects that I have completed.
+A website that shows my information and works/projects that I have worked on and completed.
 
 ## Built with
 * HTML
